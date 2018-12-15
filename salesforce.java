@@ -10,8 +10,7 @@ public static void main(String[] args) throws InterruptedException {
 		
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\S530465\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		 driver.get("https://login.salesforce.com/");
-        WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
         driver.get("https://login.salesforce.com/");
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
